@@ -1,0 +1,18 @@
+task\_geo.data\_sources.hdx package
+===================================
+
+Submodules
+----------
+
+.. toctree::
+
+   task_geo.data_sources.hdx.hdx_connector
+   task_geo.data_sources.hdx.hdx_formatter
+
+Module contents
+---------------
+
+.. automodule:: task_geo.data_sources.hdx
+   :members:
+   :undoc-members:
+   :show-inheritance:

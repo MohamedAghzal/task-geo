@@ -1,0 +1,7 @@
+task\_geo.data\_sources.hdx.hdx\_connector module
+=================================================
+
+.. automodule:: task_geo.data_sources.hdx.hdx_connector
+   :members:
+   :undoc-members:
+   :show-inheritance:
