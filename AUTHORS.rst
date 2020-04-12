@@ -8,7 +8,7 @@ Contributors
 - Daniel Robert-Nicoud <daniel.robertnicoud@gmail.com>
 - Manuel Alvarez <manuel@pythiac.com>
 - Krishna Sheth <krishnamsheth31@gmail.com>
-
+- Mohamed Aghzal <m.aghzal@aui.ma>
 
 Data Sources
 ------------
@@ -33,6 +33,11 @@ HDX Data Source
 The [**ACAPS COVID-19: Government Measures Dataset**](https://data.humdata.org/dataset/acaps-covid19-government-measures-dataset)
 is added on the [Humanitarian Data Exchange](https://data.humdata.org) website and we acknowledge the
 [ACAPS](https://www.acaps.org/) organization for the effort they put into collecting and updating their dataset regularly
+
+The Covid Tracking Project 
+***************
+The Covid Tracking Project (https://covidtracking.com/) tracks and collects Covid-19 data across the United States
+
 
 Special Thanks
 --------------
