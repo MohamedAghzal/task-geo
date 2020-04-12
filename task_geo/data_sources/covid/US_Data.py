@@ -1,8 +1,11 @@
+'''Data retrieved from https://covidtracking.com/api/v1/states/daily.csv '''
+
 import io
 import pandas as pd
 import requests
 import numpy as np
 from matplotlib import pyplot
+import datetime as dt
 
 url = ('https://covidtracking.com/api/v1/states/daily.csv')
 
@@ -86,7 +89,9 @@ def usa_data_cleaner(df):
   for i in range(len(df)):
     date = str(df.loc[i, 'date'])
     date = date[:4] + '-' + date[4:6] + '-' + date[6:8]
-    df.loc[i, 'date'] = np.array(date)
+    year, month, day = map(int, date.split('-'))
+    date = dt.date(year, month, day)
+    df.loc[i, 'date'] = date
     df.loc[i, 'state_name'] = states_dict[df.loc[i, 'state']]
     df
   
