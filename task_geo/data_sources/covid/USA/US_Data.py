@@ -3,7 +3,6 @@
 import io
 import pandas as pd
 import requests
-import numpy as np
 from matplotlib import pyplot
 import datetime as dt
 
